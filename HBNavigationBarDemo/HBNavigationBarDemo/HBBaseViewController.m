@@ -47,15 +47,21 @@
     UINavigationBar* naviBar = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 0,self.view.frame.size.width,64)];
     naviBar.translucent = NO;
     naviBar.barTintColor = [UIColor colorWithRed:60.0/255 green:178.0/255 blue:173.0/255 alpha:1];
+
     self.naviBar = naviBar;
+    UIColor * color = [UIColor whiteColor];
+    NSDictionary * dict = [NSDictionary dictionaryWithObject:color forKey:NSForegroundColorAttributeName];
+    naviBar.titleTextAttributes = dict;
     [self.view addSubview:naviBar];
 }
 -(void)loadBackBarItem
 {
     UINavigationItem* naviItem = [[UINavigationItem alloc]init];
     naviItem.leftBarButtonItem= [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"back"] style:UIBarButtonItemStylePlain target:self action:@selector(backClick)];
-    naviItem.leftBarButtonItem.tintColor = [UIColor blueColor];
+    naviItem.leftBarButtonItem.tintColor = [UIColor whiteColor];
+        // naviItem.title = @"111";
     naviItem.leftItemsSupplementBackButton = YES;
+
     [self.naviBar pushNavigationItem:naviItem animated:NO];
  
 }

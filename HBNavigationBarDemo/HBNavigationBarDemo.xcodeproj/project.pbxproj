@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AD71FD81BE25886006F0E02 /* HBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD71FD71BE25886006F0E02 /* HBTabBarViewController.m */; };
 		0ADDEBA61BE2084100522D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDEBA51BE2084100522D10 /* main.m */; };
 		0ADDEBA91BE2084100522D10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDEBA81BE2084100522D10 /* AppDelegate.m */; };
 		0ADDEBAC1BE2084100522D10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDEBAB1BE2084100522D10 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD71FD61BE25886006F0E02 /* HBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTabBarViewController.h; sourceTree = "<group>"; };
+		0AD71FD71BE25886006F0E02 /* HBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTabBarViewController.m; sourceTree = "<group>"; };
 		0ADDEBA01BE2084100522D10 /* HBNavigationBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBNavigationBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADDEBA41BE2084100522D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ADDEBA51BE2084100522D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +69,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD71FC91BE254A3006F0E02 /* HBTablevViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HBTablevViewDemo;
+			sourceTree = "<group>";
+		};
+		0AD71FCA1BE254EB006F0E02 /* HBCollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HBCollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		0AD71FCB1BE25509006F0E02 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		0AD71FCC1BE25518006F0E02 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0AD71FCF1BE25544006F0E02 /* Base */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		0AD71FCD1BE25521006F0E02 /* MyLib */ = {
+			isa = PBXGroup;
+			children = (
+				0AD71FD51BE2564C006F0E02 /* HBFoundation */,
+				0AD71FD41BE2563C006F0E02 /* HBUIKit */,
+				0AD71FD31BE2562F006F0E02 /* HBViews */,
+				0AD71FD21BE25612006F0E02 /* HBNetWork */,
+				0AD71FD11BE255EE006F0E02 /* HBHUBMesage */,
+			);
+			name = MyLib;
+			sourceTree = "<group>";
+		};
+		0AD71FCE1BE2552B006F0E02 /* ThirdPartLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdPartLib;
+			sourceTree = "<group>";
+		};
+		0AD71FCF1BE25544006F0E02 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0ADDEBC91BE2087A00522D10 /* HBBaseViewController.h */,
+				0ADDEBCA1BE2087A00522D10 /* HBBaseViewController.m */,
+				0AD71FD61BE25886006F0E02 /* HBTabBarViewController.h */,
+				0AD71FD71BE25886006F0E02 /* HBTabBarViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0AD71FD01BE25569006F0E02 /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				0ADDEBAA1BE2084100522D10 /* ViewController.h */,
+				0ADDEBAB1BE2084100522D10 /* ViewController.m */,
+				0ADDEBCC1BE2195A00522D10 /* ViewController2.h */,
+				0ADDEBCD1BE2195A00522D10 /* ViewController2.m */,
+			);
+			name = FirstPage;
+			sourceTree = "<group>";
+		};
+		0AD71FD11BE255EE006F0E02 /* HBHUBMesage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HBHUBMesage;
+			sourceTree = "<group>";
+		};
+		0AD71FD21BE25612006F0E02 /* HBNetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HBNetWork;
+			sourceTree = "<group>";
+		};
+		0AD71FD31BE2562F006F0E02 /* HBViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HBViews;
+			sourceTree = "<group>";
+		};
+		0AD71FD41BE2563C006F0E02 /* HBUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HBUIKit;
+			sourceTree = "<group>";
+		};
+		0AD71FD51BE2564C006F0E02 /* HBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HBFoundation;
+			sourceTree = "<group>";
+		};
 		0ADDEB971BE2084100522D10 = {
 			isa = PBXGroup;
 			children = (
@@ -87,18 +195,19 @@
 		0ADDEBA21BE2084100522D10 /* HBNavigationBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0AD71FCE1BE2552B006F0E02 /* ThirdPartLib */,
+				0AD71FCD1BE25521006F0E02 /* MyLib */,
+				0AD71FCC1BE25518006F0E02 /* Common */,
+				0AD71FCB1BE25509006F0E02 /* Main */,
+				0AD71FCA1BE254EB006F0E02 /* HBCollectionViewDemo */,
+				0AD71FC91BE254A3006F0E02 /* HBTablevViewDemo */,
+				0AD71FD01BE25569006F0E02 /* FirstPage */,
 				0ADDEBA71BE2084100522D10 /* AppDelegate.h */,
 				0ADDEBA81BE2084100522D10 /* AppDelegate.m */,
-				0ADDEBAA1BE2084100522D10 /* ViewController.h */,
-				0ADDEBAB1BE2084100522D10 /* ViewController.m */,
 				0ADDEBAD1BE2084100522D10 /* Main.storyboard */,
 				0ADDEBB01BE2084100522D10 /* Images.xcassets */,
 				0ADDEBB21BE2084100522D10 /* LaunchScreen.xib */,
 				0ADDEBA31BE2084100522D10 /* Supporting Files */,
-				0ADDEBC91BE2087A00522D10 /* HBBaseViewController.h */,
-				0ADDEBCA1BE2087A00522D10 /* HBBaseViewController.m */,
-				0ADDEBCC1BE2195A00522D10 /* ViewController2.h */,
-				0ADDEBCD1BE2195A00522D10 /* ViewController2.m */,
 			);
 			path = HBNavigationBarDemo;
 			sourceTree = "<group>";
@@ -139,7 +248,6 @@
 				0ADDEB9C1BE2084100522D10 /* Sources */,
 				0ADDEB9D1BE2084100522D10 /* Frameworks */,
 				0ADDEB9E1BE2084100522D10 /* Resources */,
-				BD1195BEA30769B6AA79D691 /* Find unused imports */,
 			);
 			buildRules = (
 			);
@@ -225,23 +333,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		BD1195BEA30769B6AA79D691 /* Find unused imports */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Find unused imports";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"/Users/wangfeng/Library/Application Support/Developer/Shared/Xcode/Plug-ins/xcfui.xcplugin/Contents/Resources/fui_script.sh\" \"/Users/wangfeng/Documents/work_2015/git_project/HBNSURLSessionDemo/HBNavigationBarDemo\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		0ADDEB9C1BE2084100522D10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -249,6 +340,7 @@
 			files = (
 				0ADDEBAC1BE2084100522D10 /* ViewController.m in Sources */,
 				0ADDEBCB1BE2087A00522D10 /* HBBaseViewController.m in Sources */,
+				0AD71FD81BE25886006F0E02 /* HBTabBarViewController.m in Sources */,
 				0ADDEBCE1BE2195A00522D10 /* ViewController2.m in Sources */,
 				0ADDEBA91BE2084100522D10 /* AppDelegate.m in Sources */,
 				0ADDEBA61BE2084100522D10 /* main.m in Sources */,

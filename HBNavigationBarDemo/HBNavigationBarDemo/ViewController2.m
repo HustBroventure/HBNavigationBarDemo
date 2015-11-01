@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.naviBar.topItem.title = @"标题";
+        self.naviBar.topItem.title = @"标题";
         //self.navigationController.interactivePopGestureRecognizer.enabled = NO;
     NSLog(@"222%s",__func__);
     UIButton* btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
