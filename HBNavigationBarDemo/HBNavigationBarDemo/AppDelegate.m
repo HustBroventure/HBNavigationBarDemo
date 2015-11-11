@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ECSlidingViewController.h"
+#import "LeftMenuTableViewController.h"
+#import "HBTabBarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,8 +18,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
      NSLog(@"%s",__func__);
+
+    UIStoryboard* main = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ECSlidingViewController* bottomVC =[[ECSlidingViewController alloc]init];
+
+       HBTabBarViewController* mainVC = (HBTabBarViewController*)[main instantiateViewControllerWithIdentifier:@"Tab"];
+
+
+
+    [bottomVC setUnderLeftViewController:[LeftMenuTableViewController new]];
+    [bottomVC setTopViewController:mainVC];
+
+
+
+
     return YES;
 }
 

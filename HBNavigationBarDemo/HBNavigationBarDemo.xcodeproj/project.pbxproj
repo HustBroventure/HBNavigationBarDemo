@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A298F481BED9AFE00AE876E /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F3C1BED9AFE00AE876E /* ECPercentDrivenInteractiveTransition.m */; };
+		0A298F491BED9AFE00AE876E /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F3E1BED9AFE00AE876E /* ECSlidingAnimationController.m */; };
+		0A298F4A1BED9AFE00AE876E /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F411BED9AFE00AE876E /* ECSlidingInteractiveTransition.m */; };
+		0A298F4B1BED9AFE00AE876E /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F431BED9AFE00AE876E /* ECSlidingSegue.m */; };
+		0A298F4C1BED9AFE00AE876E /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F451BED9AFE00AE876E /* ECSlidingViewController.m */; };
+		0A298F4D1BED9AFE00AE876E /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F471BED9AFE00AE876E /* UIViewController+ECSlidingViewController.m */; };
+		0A298F501BED9B9900AE876E /* LeftMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A298F4F1BED9B9900AE876E /* LeftMenuTableViewController.m */; };
 		0AD71FD81BE25886006F0E02 /* HBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD71FD71BE25886006F0E02 /* HBTabBarViewController.m */; };
 		0ADDEBA61BE2084100522D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDEBA51BE2084100522D10 /* main.m */; };
 		0ADDEBA91BE2084100522D10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDEBA81BE2084100522D10 /* AppDelegate.m */; };
@@ -30,6 +37,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A298F3B1BED9AFE00AE876E /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		0A298F3C1BED9AFE00AE876E /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		0A298F3D1BED9AFE00AE876E /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		0A298F3E1BED9AFE00AE876E /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		0A298F3F1BED9AFE00AE876E /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
+		0A298F401BED9AFE00AE876E /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		0A298F411BED9AFE00AE876E /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		0A298F421BED9AFE00AE876E /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		0A298F431BED9AFE00AE876E /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
+		0A298F441BED9AFE00AE876E /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		0A298F451BED9AFE00AE876E /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		0A298F461BED9AFE00AE876E /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		0A298F471BED9AFE00AE876E /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		0A298F4E1BED9B9900AE876E /* LeftMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuTableViewController.h; sourceTree = "<group>"; };
+		0A298F4F1BED9B9900AE876E /* LeftMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuTableViewController.m; sourceTree = "<group>"; };
 		0AD71FD61BE25886006F0E02 /* HBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTabBarViewController.h; sourceTree = "<group>"; };
 		0AD71FD71BE25886006F0E02 /* HBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTabBarViewController.m; sourceTree = "<group>"; };
 		0ADDEBA01BE2084100522D10 /* HBNavigationBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBNavigationBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,9 +91,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A298F3A1BED9AFE00AE876E /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A298F3B1BED9AFE00AE876E /* ECPercentDrivenInteractiveTransition.h */,
+				0A298F3C1BED9AFE00AE876E /* ECPercentDrivenInteractiveTransition.m */,
+				0A298F3D1BED9AFE00AE876E /* ECSlidingAnimationController.h */,
+				0A298F3E1BED9AFE00AE876E /* ECSlidingAnimationController.m */,
+				0A298F3F1BED9AFE00AE876E /* ECSlidingConstants.h */,
+				0A298F401BED9AFE00AE876E /* ECSlidingInteractiveTransition.h */,
+				0A298F411BED9AFE00AE876E /* ECSlidingInteractiveTransition.m */,
+				0A298F421BED9AFE00AE876E /* ECSlidingSegue.h */,
+				0A298F431BED9AFE00AE876E /* ECSlidingSegue.m */,
+				0A298F441BED9AFE00AE876E /* ECSlidingViewController.h */,
+				0A298F451BED9AFE00AE876E /* ECSlidingViewController.m */,
+				0A298F461BED9AFE00AE876E /* UIViewController+ECSlidingViewController.h */,
+				0A298F471BED9AFE00AE876E /* UIViewController+ECSlidingViewController.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
 		0AD71FC91BE254A3006F0E02 /* HBTablevViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0A298F4E1BED9B9900AE876E /* LeftMenuTableViewController.h */,
+				0A298F4F1BED9B9900AE876E /* LeftMenuTableViewController.m */,
 			);
 			name = HBTablevViewDemo;
 			sourceTree = "<group>";
@@ -113,6 +157,7 @@
 		0AD71FCE1BE2552B006F0E02 /* ThirdPartLib */ = {
 			isa = PBXGroup;
 			children = (
+				0A298F3A1BED9AFE00AE876E /* ECSlidingViewController */,
 			);
 			name = ThirdPartLib;
 			sourceTree = "<group>";
@@ -338,12 +383,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A298F4B1BED9AFE00AE876E /* ECSlidingSegue.m in Sources */,
 				0ADDEBAC1BE2084100522D10 /* ViewController.m in Sources */,
+				0A298F4C1BED9AFE00AE876E /* ECSlidingViewController.m in Sources */,
 				0ADDEBCB1BE2087A00522D10 /* HBBaseViewController.m in Sources */,
+				0A298F4A1BED9AFE00AE876E /* ECSlidingInteractiveTransition.m in Sources */,
 				0AD71FD81BE25886006F0E02 /* HBTabBarViewController.m in Sources */,
 				0ADDEBCE1BE2195A00522D10 /* ViewController2.m in Sources */,
 				0ADDEBA91BE2084100522D10 /* AppDelegate.m in Sources */,
+				0A298F481BED9AFE00AE876E /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				0ADDEBA61BE2084100522D10 /* main.m in Sources */,
+				0A298F4D1BED9AFE00AE876E /* UIViewController+ECSlidingViewController.m in Sources */,
+				0A298F491BED9AFE00AE876E /* ECSlidingAnimationController.m in Sources */,
+				0A298F501BED9B9900AE876E /* LeftMenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
